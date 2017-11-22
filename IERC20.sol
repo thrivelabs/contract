@@ -1,5 +1,5 @@
 pragma solidity ^0.4.11;
-
+// ERC20 statndard functions Interface
 interface IERC20{
     function totalSupply() constant returns (uint256 totalSupply);
     function balanceOf(address _owner) constant returns (uint256 balance);

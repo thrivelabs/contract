@@ -52,12 +52,12 @@ contract ThriveToken is IERC20{
         uint256 deftokens = 94000000000000000000000000; // sets amount of tokens to assign to owner 
         owner = msg.sender; // sets owner
         balances[owner] = deftokens;
-        presaleStartTime = 1510935300; // 03/11/2017 h 19.10
-        presaleEndTime = presaleStartTime.add(15 minutes);
-        round1StartTime = 1510936500; // 03/11/2017 h 19.20
-        round1EndTime = round1StartTime.add(15 minutes);
-        round2StartTime = 1510937700; // 03/11/2017 h 19.30
-        round2EndTime = round2StartTime.add(15 minutes);
+        presaleStartTime = XXXXXXXXXX; // Timestamp of presale start date
+        presaleEndTime = presaleStartTime.add(20days);// Timestamp of presale end date
+        round1StartTime = XXXXXXXXXX; // Timestamp of ICO round 1 start date
+        round1EndTime = round1StartTime.add(20 days);// Timestamp of ICO round 1 end date
+        round2StartTime = XXXXXXXXXX; // // Timestamp of ICO round 2 start date
+        round2EndTime = round2StartTime.add(20 days);// Timestamp of ICO round 2 end date
         _totalSupply=_totalSupply.add(deftokens);
         // _phase=1;
     }

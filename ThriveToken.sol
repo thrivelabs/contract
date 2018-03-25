@@ -17,7 +17,7 @@ contract ThriveToken is StandardToken {
     uint8 public constant decimals = 18; // solium-disable-line uppercase
 
     uint256 public constant INITIAL_SUPPLY = 280000000 * (10 ** uint256(decimals));
-    uint256 public constant RAISED_AMOUNT = 25000000;
+    uint256 public constant RAISED_AMOUNT = 25000000;//Constant added for retrieving info about raised amount in ICO
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
